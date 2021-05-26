@@ -1,0 +1,27 @@
+
+body{
+    background-color: #333;
+    padding:20px;
+}
+main{
+    padding-top: 20px;
+}
+div{
+    height: 100px;
+    content: " ";
+    border-radius: 12px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.active{
+    opacity: 0.6;
+    transform: scale(0.8);
+    transition: ease-in-out 0.07s;
+}
